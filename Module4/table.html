@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML TABLE</title> 
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 5px 10px;
+      }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                            <ul class="dropdown">
+                                <li><a href="video.html">Video</a></li>
+                                <li><a href="form.html">Form</a></li>
+                                <li><a href="table.html">Table</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <h1>HTML Table</h1>
+      <table>
+        <caption>
+          <h3>Employee Salary TAble</h3>
+        </caption>
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Salary</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>01.</td>
+            <td>Bill Gates</td>
+            <td>Microsoft</td>
+            <td>$1500</td>
+          </tr>
+          <tr>
+            <td>02.</td>
+            <td>Steve Jobs</td>
+            <td>Apple</td>
+            <td>$1400</td>
+          </tr>
+          <tr>
+            <td>03.</td>
+            <td>Mark Zuckerberg</td>
+            <td>Facebook</td>
+            <td>$1300</td>
+          </tr>
+          <tr>
+            <td>04.</td>
+            <td>Larry Page</td>
+            <td>Google</td>
+            <td>$1000</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">Total Employee: 04</td>
+          </tr>
+        </tfoot>
+      </table>
+      <h1>Description Of Table</h1>
+      <ul>
+        <li>Table: table</li>
+        <li>table head: thead</li>
+        <li>table body: tbody</li>
+        <li>table footer: tfoot</li>
+        <li>table row: tr</li>
+        <li>table data or table cell: td</li>
+        <li>table colom: th or td</li>
+        <li>table header cell: th</li>
+        <li>caption</li>
+      </ul>
+    </main>
+    <footer></footer>
+  </body>
+</html>
